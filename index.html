@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Font Awesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>MY Portfolio</title>
+  </head>
+
+  <body>
+    <nav id="navbar" class="navbar"><a href="#"></a></nav>
+
+    <div class="container">
+      <!--=============== NAVIGATION MENU ===============-->
+
+      <div class="menu">
+        <a
+          href="#welcome-section"
+          style="--clr: #26ee37"
+          class="menu-icon fas fa-home icon1"
+        ></a>
+        <a
+          href="#about"
+          style="--clr: #1813aa"
+          class="menu-icon fas fa-user icon2"
+        ></a>
+        <a
+          href="#projects"
+          style="--clr: #c99c15"
+          class="menu-icon fas fa-code icon3"
+        ></a>
+        <a
+          href="#experience"
+          style="--clr: #044aac"
+          class="menu-icon fas fa-briefcase icon4"
+        ></a>
+        <a
+          href="#contact"
+          style="--clr: #36eef4"
+          class="menu-icon fas fa-envelope icon5"
+        ></a>
+      </div>
+
+      <!--=============== MAIN "WINDOW" ===============-->
+
+      <div class="portfolio">
+        <!--=============== HEADER SECTION ===============-->
+
+        <section class="header">
+          <img class="header-img" src="image.jpeg" alt="" />
+          <h1>Abhishek Bagwan</h1>
+          <br />
+          <h2>Data Analyst and Frontend Developer</h2>
+          <div class="socials">
+            <a
+              href="https://www.linkedin.com/in/abhishek-bagwan-523a03218/"
+              target="_blank"
+              class="fab fa-linkedin-in"
+              id="profile-link"
+            ></a>
+            <a
+              href="https://github.com/abhishekbagwan"
+              target="_blank"
+              class="fab fa-github"
+            ></a>
+          </div>
+          <a
+            href="https://drive.google.com/file/d/12iqFnHKIfQPV2DgAE4HRgUfXRXA_q_tV/view?usp=drivesdk"
+            class="cta"
+            >DownIoad Resume</a
+          >
+        </section>
+
+        <!--=============== CONTENT SECTION ===============-->
+
+        <div class="content">
+          <!--=============== HOME ===============-->
+
+          <section class="content-card home" id="welcome-section">
+            <h1>Hello, I am Abhishek Bagwan</h1>
+          </section>
+
+          <!--=============== ABOUT ME ===============-->
+
+          <section class="content-card about" id="about">
+            <h1>About me</h1>
+            <div class="about-item about-me">
+              <p>
+                I am looking forward an opportunity in such field that I will
+                get a chance to show my telent as best as of possible.
+              </p>
+              <p>
+                To grow with the company where I can effectively contribute my
+                Analytical skills as professional.
+              </p>
+            </div>
+            <div class="col-2">
+              <div class="about-item skills">
+                <h1>Skills</h1>
+                <span class="skill">Python</span>
+                <span class="skill">My SQL</span>
+                <span class="skill">Power BI</span>
+                <span class="skill">Excel</span>
+                <span class="skill">Data Cleaning</span><br />
+                <span class="skill">HTML and CSS</span>
+              </div>
+
+              <div class="about-item languages">
+                <h1>Languages</h1>
+                <div class="language">
+                  <p>Hindi</p>
+                  <span class="bar"><span class="polish"></span></span>
+                </div>
+                <div class="language">
+                  <p>English</p>
+                  <span class="bar"><span class="english"></span></span>
+                </div>
+                <!-- <div class="language">
+                                <p>french</p>
+                                <span class="bar"><span class="french"></span></span>
+                            </div> -->
+              </div>
+            </div>
+          </section>
+
+          <!--=============== PROJECTS ===============-->
+
+          <section class="content-card projects" id="projects">
+            <h1>Projects</h1>
+            <div class="col-2 project-list">
+              <div class="project-tile">
+                <img src="netflix.png" alt="" />
+                <div class="overlay">
+                  <div class="project-description">
+                    <h3>Netflix Data Analysis</h3>
+                    <p>
+                      In that Project I'm Analyze the Netflix data and using
+                      python library design diffrent visualization.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="project-tile">
+                <img src="hotel.jpg" alt="" />
+                <div class="overlay">
+                  <div class="project-description">
+                    <h3>Hotel Booking Data Analysis</h3>
+                    <p>
+                      In that project, I'm analyze the hotel booking dataset and
+                      make a valueable insites from the dataset and perform
+                      exploratery analysis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="project-tile">
+                <img src="spotify.jpg" alt="" />
+                <div class="overlay">
+                  <div class="project-description">
+                    <h3>Spotify Data Analysis</h3>
+                    <p>
+                      In that project I'm perform data cleaning using Power BI
+                      tool and using python library perform Visualization.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="project-tile">
+                <img src="power bi.jpg" alt="" />
+                <div class="overlay">
+                  <div class="project-description">
+                    <h3>Power BI Dashboard</h3>
+                    <p>
+                      Design diffrent types of power BI dashboard using dataset
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="https://github.com/abhishekbagwan">see more...</a>
+          </section>
+
+          <!--=============== EXPERIENCE ===============-->
+
+          <section class="content-card experience" id="experience">
+            <h1>Experience</h1>
+            <div class="timeline">
+              <div class="timeline-items">
+                <div class="timeline-item">
+                  <div class="timeline-date">2023 - now</div>
+                  <div class="timeline-content">
+                    <h3>Data Analyst Course from (JSMIES)</h3>
+                    <p>
+                      Data analyst, Web Development, Python, HTML5, CSS, MYSQL,
+                      DBMS.
+                    </p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-date">2019 - 2023</div>
+                  <div class="timeline-content">
+                    <h3>B.TECH(CS)</h3>
+                    <p>
+                      Bachlor of Technology from Sagar institute of research and
+                      Technology Bhopal.
+                    </p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-date">2016 - 2017</div>
+                  <div class="timeline-content">
+                    <h3>Higher Secondary School</h3>
+                    <p>I have complete my schooling from NBVN Amlaha .</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--=============== CONTACT ===============-->
+
+          <section class="content-card contact" id="contact">
+            <h1>Contact</h1>
+            <form class="form" id="form" action="abhishekbhagwan921@gmail.com">
+              <div class="input-box">
+                <input
+                  type="text"
+                  class="text-input"
+                  name="name"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="input-box">
+                <input
+                  type="email"
+                  class="text-input"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="input-box">
+                <input
+                  type="subject"
+                  class="text-input"
+                  name="subject"
+                  id="subject"
+                  placeholder="Subject"
+                />
+              </div>
+              <div class="input-box">
+                <textarea
+                  name="text"
+                  class="message"
+                  placeholder="Message..."
+                ></textarea>
+              </div>
+              <div class="input-box">
+                <input
+                  type="submit"
+                  class="submit-btn"
+                  id="submit"
+                  value="submit"
+                />
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
